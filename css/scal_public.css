@@ -1,0 +1,539 @@
+.cw-calendar-widget {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    bottom: 0;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.4);
+    font-family: Tahoma,HelveticaNeue,Arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 10px;
+    text-align: left;
+    width: 260px;
+    z-index: 999;
+}
+.cw-calendar-widget .cw-main-title {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    bottom: 0;
+    height: 2.8em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+.cw-calendar-widget .cw-main-title h2{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 2.8em;
+    padding-left: 0.9em;
+    text-transform: none;
+    color: #fff;
+}
+.cw-widget-toggle{
+    background-color: #fff;
+    border-radius: 50%;
+    color: #333;
+    cursor: pointer;
+    font-family: Tahoma,HelveticaNeue,Arial;
+    font-size: 1.19em;
+    font-weight: bold;
+    height: 1.3em;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0.8em;
+    text-align: center;
+    top: 0.5em;
+    width: 1.3em;
+}
+.cw-schedule-online {
+    padding: 0 0.7em;
+    margin: 0 0 1em;
+}
+.cw-schedule-online p, .cw-call-us-title p, .cw-email-us-title p{
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.8em auto 0.567em;
+    padding: 0;
+    width: 100%;
+}
+.cw-schedule-online button{
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    height: 3em;
+    line-height: 3em;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border: medium none;
+}
+.cw-or{
+    height: 1.1em;
+    margin: 0 0 -0.489em;
+    padding: 1em 0 0;
+    width: 98%;
+}
+.cw-or .cw-or-line{
+    border-bottom: 0.09em solid #424242;
+    margin: 0 -0.125em 0 0.25em;
+    padding: 0;
+    position: relative;
+}
+.cw-or .cw-or-text{
+    background-color: #424242;
+    border-radius: 50%;
+    height: 1.8em;
+    left: 46%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: -0.9em;
+    width: 1.8em;
+}
+.cw-or .cw-or-text p{
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1.8em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.cw-call-us{
+    margin: 1.5em 0 1em;
+    padding: 0em 0.7em;
+}
+.cw-call-us-title a{
+    width: 100%;
+    color: #333333;
+    font-size: 1.286em;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+.cw-email-us{
+    margin: 1.5em 0 1em;
+    padding: 0em 0.7em;
+}
+.cw-email-form textarea{
+    border: 1px solid #bcbcbc;
+    border-radius: 0;
+    color: #666666;
+    font-size: 1em;
+    padding: 0 0 0 5px;
+    margin: 0 0 5px;
+    width: 100%;
+    height: 60px;
+}
+.cw-email-form input[type='email']{
+    border: 1px solid #bcbcbc;
+    border-radius: 0;
+    color: #666666;
+    font-size: 1em;
+    height: 2em;
+    margin: 0;
+    padding: 0 0 0 5px;
+    width: 62%;
+}
+.cw-email-form input[type='text']{
+    border: 1px solid #bcbcbc;
+    border-radius: 0;
+    color: #666666;
+    font-size: 1em;
+    height: 2em;
+    margin: 0px 0 5px;
+    padding: 0 0 0 5px;
+    width: 100%;
+}
+.cw-email-form input[type='button'], .cw_send_btn{
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    float: right;
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0;
+    text-align: center;
+    width: 33%;
+    border: medium none;
+}
+.cw_send_btn{
+    width: 100%;
+}
+.cw-calendar-widget-contet button:hover ,
+.cw-calendar-widget-contet input[type='button']:hover{
+    opacity: 0.8;
+}
+.cw-popup .modal-body{
+    padding: 0;
+}
+.cw-modal-content iframe{
+    border: none;
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 0;
+}
+.cw-popup .close-modal{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    cursor: pointer;
+}
+
+/**/
+/* shortcode */
+.scal-event-wrap{
+    display: block;
+    margin: 0;
+    padding: 15px 5px;
+}
+.scal-event-wrap .scal-event{
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 100%;
+}
+.scal-event-wrap .scal-event:hover{
+    background-color: #fffdeb;
+}
+.scal-event .scal-event-col-4{
+    width: 10%;
+    margin-right: 15px;
+    float: left;
+}
+.scal-event .scal-event-col-8{
+    width: 87%;
+    float: left;
+}
+.scal-event a{
+    text-decoration: none;
+    box-shadow: none !important;
+}
+.scal-event .scal-event-title h3{
+    font-weight: bold;
+    margin: 0 0 10px !important;
+}
+.scal-event .scal-event-title h3 a{
+    display: block;
+}
+.scal-event .scal-event-date-wrap{
+    text-align: center;
+    border-radius: 3px;
+    background-color: #eee;
+    padding: 5px 5px;
+    display: block;
+    width: 100%;
+}
+.scal-event .scal-event-date-wrap .scal-event-date{
+    font-size: 26px;
+    line-height: 34px;
+}
+.scal-event .scal-event-date-wrap .scal-event-month{
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+.scal-event .scal-event-date-wrap .scal-event-year{
+    font-size: 20px;
+    line-height: 24px;
+}
+.scal-event .scalImg{
+    /*padding-left: 0 !important;*/
+    padding-right: 0 !important;
+}
+.scal-event .scalImg img{
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.sidebar-event-date{
+    color: #777;
+    font-style: italic;
+    font-size: 11px;
+    display: block;
+}
+.scal-upcoming-events li{
+    margin-bottom: 15px;
+}
+.scal-upcoming-events li a{
+    display: block;
+}
+.scal-readmore{
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* Add to calendar */
+a.add-to-calendar{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+a.add-to-calendar:hover{
+    text-decoration: none;
+    color: #ffc800 ;
+}
+.scal-add-to-calendar{
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    padding: 15px 0 0 !important;
+}
+.scal_hr{
+    background: #FFF;
+    border-color: #f2f2f3;
+    height: 30px;
+    margin: 20px 0 0;
+}
+.calender-imgs{
+    margin: 20px 0 0; 
+    padding: 0;
+}
+.calender-imgs li{
+    display: inline-block;
+    margin: 0;
+    padding: 0 1%;
+    border: none !important;
+    width: 31.33%;
+    vertical-align: top;
+}
+.calender-imgs li a span{display: block;}
+.calender-imgs li a img{opacity: 0.7}
+.calender-imgs li a:hover img{opacity: 1}
+.addtocalendar{visibility: hidden;position: absolute;left: -5000px;}
+
+/* Responsive */
+@media (max-width:1024px){
+    .scal-event .scal-event-col-4{
+        width: 15%;
+    }
+    .scal-event .scal-event-col-8{
+        width: 82%;
+    }
+}
+@media (max-width:640px){
+    .scal-event .scal-event-col-4,
+    .scal-event .scal-event-col-8{
+        width: 100%;
+    }
+    .scal-event-date-wrap{
+        width: 80px !important;
+        margin: 0 auto 15px;
+    }
+}
+
+/* call to action box */
+.scal-cta-content{
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+}
+.scal-cta-content:not(:last-child){
+    margin-bottom: 15px;
+}
+.scal-cta-content h1,
+.scal-cta-content h2,
+.scal-cta-content h3,
+.scal-cta-content h4,
+.scal-cta-content h5,
+.scal-cta-content h6{
+    margin: 0 0 10px !important;
+}
+.scal-cta-content ul, .scal-cta-content ol{
+    margin-left: 15px !important;
+    margin-bottom: 0;
+    padding-left: 15px !important;
+}
+.scal-event-content a, .scal-event-date-wrap a{
+    color: #333;
+}
+
+.scal-page-wrap{
+    /*float: left;
+    width: 100%;
+    margin: 15px -15px;*/
+}
+.event-title{
+    color: #196abc;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.event-detail-img{
+    margin-bottom: 20px;
+}
+.scal-widget{
+    float: left;
+    width: 100%;
+    color: #333;
+    margin-bottom: 15px;
+}
+.scal-widget:last-child{
+    margin-bottom: 0;
+}
+.scal-widget a{
+    color: #1a1a1a;
+}
+.scal-sidebar-widget {
+    float: left;
+    width: 100%;
+}
+.scal-sidebar-widget .textwidget{
+    padding: 5px;
+}
+.scal-widget h3 {
+    padding: 10px 5px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: normal;
+    border-bottom: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 0;
+    text-align: center;
+}
+
+.scal-widget h3.scal-widget-title {
+    padding: 10px 5px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: normal;
+    border-bottom: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 0;
+    text-align: center;
+}
+.scal-sidebar .scal-widget-border{
+    border: 1px solid #ccc;
+}
+h1.event-title{
+    text-align: center;
+    margin: 10px 0 15px;
+}
+.scal-sidebar-bg {
+    background-color: #f2f2f3;
+}
+.scal-sidebar {
+    overflow: hidden;
+    min-height: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.scal-pagination {
+    font-size: 14px;
+    float: left;
+}
+.scal-event-wrap .swift_pagination{
+    margin: 25px auto;
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+.scal-event-wrap .swift_pagination a{
+    display: inline-block;
+    float: none;
+    padding: 0;
+    margin: 0 5px;
+    background: #f2f2f2;
+    line-height: 30px;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.scal-event-wrap .swift_pagination a:hover{
+    background-color:#196abc; 
+    color: #FFF; 
+    text-decoration: none;
+}
+.scal-event-wrap .swift_pagination span.current {
+    display: inline-block;
+    float: none;
+    padding: 0;
+    margin: 0 5px;
+    line-height: 30px;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color:#196abc; 
+    color: #FFF; 
+}
+.scal-sidebar-link {
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 0px;
+    text-align: center;
+}
+.scal-sidebar-link a {
+    color: #999;
+    display: block;
+    padding: 5px 10px;
+}
+.scal-widget-border > div ul {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+.text-right{
+    text-align: right;
+}
+body.single-event_marketing .scal-event-date-wrap{
+    text-align: center;
+    border-radius: 3px;
+    background-color: #eee;
+    padding: 5px;
+    margin: 0 0 20px 20px;
+    display: block;
+    width: auto;
+    min-width: 100px;
+    float: right;
+}
+body.single-event_marketing .scal-event-date-wrap .scal-event-date{
+    font-size: 26px;
+    line-height: 34px;
+}
+body.single-event_marketing .scal-event-date-wrap .scal-event-month{
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+body.single-event_marketing .scal-event-date-wrap .scal-event-year{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media (max-width:768px){
+    .scal-page-wrap{
+        margin: 15px 0;
+    }
+
+}
+@media (max-width:767px){
+    #future_date{
+        float: none;
+        text-align: center;
+        display: block;
+    }
+}
